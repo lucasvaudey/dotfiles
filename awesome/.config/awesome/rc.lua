@@ -45,8 +45,8 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init("/home/max/.config/awesome/themes/xresources/theme.lua")
-beautiful.font = "SourceCodePro 12"
+beautiful.init("/home/lucas/.config/awesome/themes/xresources/theme.lua")
+beautiful.font = "Fira Code 15"
 
 -- This is used later as the default terminal and editor to run.
 terminal = "alacritty"
@@ -332,7 +332,7 @@ clientkeys = gears.table.join(
             c:raise()
         end,
         {description = "toggle fullscreen", group = "client"}),
-    awful.key({ modkey, "Shift"   }, "c",      function (c) c:kill()                         end,
+    awful.key({ modkey }, "q",      function (c) c:kill()                         end,
               {description = "close", group = "client"}),
     awful.key({ modkey, "Control" }, "space",  awful.client.floating.toggle                     ,
               {description = "toggle floating", group = "client"}),

@@ -1,14 +1,14 @@
 font:
   normal:
-    family: SourceCodePro
+    family: Fira Code
     style: Regular
   bold:
-    family: SourceCodePro
+    family: Fira Code
     style: Bold
   italic:
-    family: SourceCodePro
+    family: Fira Code
     style: Italic
-  size: 9
+  size: 15
 
 colors:
   primary:

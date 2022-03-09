@@ -2,25 +2,22 @@
 
 My dotfiles managed by [GNU Stow](https://www.gnu.org/software/stow/). 
 
-![](https://github.com/max-0406/dotfiles/blob/main/screenshots/hor.png)
-
 ## Setup
 
 - OS: [Arch Linux](https://archlinux.org/)
 - WM: [Awesome](https://github.com/awesomeWM/awesome)
 - Colorscheme: [Nord](https://www.nordtheme.com/)
 - Terminal: [Alacritty](https://github.com/alacritty/alacritty)
-- Shell: [zsh](https://www.zsh.org/)
+- Shell: [Fish shell](https://fishshell.com/)
 - Editor: [Neovim](https://github.com/neovim/neovim/)
 - Compositor: [picom](https://github.com/yshui/picom)
-- Document Viewer: [zathura](https://pwmt.org/projects/zathura/)
-- Fonts: [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
+- Fonts: [Fira Code](https://archlinux.org/packages/community/any/ttf-fira-code/)
 
 ## Usage
 
 ```bash
 cd ~
-git clone https://github.com/max-0406/dotfiles
+git clone https://github.com/lucasvaudey/dotfiles
 cd dotfiles
 
 # stow whatever you want
@@ -30,6 +27,3 @@ stow nvim
 stow zsh awesome
 ```
 
-# Screenshots
-
-![](https://github.com/max-0406/dotfiles/blob/main/screenshots/vert.png)
