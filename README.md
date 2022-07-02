@@ -5,13 +5,13 @@ My dotfiles managed by [GNU Stow](https://www.gnu.org/software/stow/).
 ## Setup
 
 - OS: [Arch Linux](https://archlinux.org/)
-- WM: [Awesome](https://github.com/awesomeWM/awesome)
-- Colorscheme: [Nord](https://www.nordtheme.com/)
+- WM: [I3](https://github.com/i3/i3)
+- Colorscheme: [TokyoDark Nvim Colorsheme](https://github.com/folke/tokyonight.nvim)
 - Terminal: [Alacritty](https://github.com/alacritty/alacritty)
 - Shell: [Fish shell](https://fishshell.com/)
 - Editor: [Neovim](https://github.com/neovim/neovim/)
 - Compositor: [picom](https://github.com/yshui/picom)
-- Fonts: [Fira Code](https://archlinux.org/packages/community/any/ttf-fira-code/)
+- Fonts: [JetBrains Mono Nerd Fonts](https://archlinux.org/packages/community/any/ttf-fira-code/)
 
 ## Usage
 
